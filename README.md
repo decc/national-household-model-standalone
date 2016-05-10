@@ -27,7 +27,7 @@ In order to sign the created application you will need to 'sign' the build with 
 2. [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation) - Provides the help/reference guide to the NHM within the IDE.
 
 ## Binaries - Compiled Executables of the Standalone IDE
-TODO
+Are available [here](https://github.com/cse-bristol/national-household-model-standalone/releases/tag/Current).
 
 # License
 [Open Government License] (http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) 
