@@ -1,7 +1,7 @@
 # Synopsis
-This repository holds the projects necessary to build the National Household Model Standalone (IDE), the IDE utilises the open-source [Eclipse] (http://www.eclipse.org/) IDE and adds customisation to allow the editing of scenarios (a scripting language for describing simulation events for the National Household Model), importing house stocks from structured CSV files and running simulations using the model. The implementation of the model is available from a separate repository detailed in External Project Dependencies.
+This repository holds the projects necessary to build the National Household Model Standalone (IDE), the IDE utilises the open-source [Eclipse] (http://www.eclipse.org/) IDE and adds customisation to allow the editing of scenarios (a scripting language for describing simulation events for the National Household Model), importing housing stocks from structured CSV files and running simulations using the model. The implementation of the model is available from a separate repository detailed in External Project Dependencies.
 
-More information on using the model can be found both  [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation/releases/tag/Current) and within the internal help menus's of the Standalone.
+More information on using the model can be found both [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation/releases/tag/Current) and within the internal help menus of the Standalone.
 
 # Installation
 To build the Standalone project locally both the OSGI Bundles,  [National Household Model] (https://github.com/cse-bristol/national-household-model-core-components) and  [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation) need to be compiled as jars and installed within a local Maven repository.
