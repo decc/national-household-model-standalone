@@ -1,5 +1,7 @@
 # Synopsis
-This repository holds the projects necessary to build the National Household Model Standalone (IDE), the IDE utilises the open-source [Eclipse] (http://www.eclipse.org/) IDE and adds customisation to allow the editing of scenarios (a *DSL for describing simulation events for the National Household Model), importing house stocks from structured CSV files and running simulations using the model. The implementation of the model is available from a separate repository detailed in External Project Dependencies.
+This repository holds the projects necessary to build the National Household Model Standalone (IDE), the IDE utilises the open-source [Eclipse] (http://www.eclipse.org/) IDE and adds customisation to allow the editing of scenarios (a scripting language for describing simulation events for the National Household Model), importing house stocks from structured CSV files and running simulations using the model. The implementation of the model is available from a separate repository detailed in External Project Dependencies.
+
+More information on using the model can be found both  [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation/releases/tag/Current) and within the internal help menus's of the Standalone.
 
 # Installation
 To build the Standalone project locally both the OSGI Bundles,  [National Household Model] (https://github.com/cse-bristol/national-household-model-core-components) and  [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation) need to be compiled as jars and installed within a local Maven repository.
@@ -27,7 +29,11 @@ In order to sign the created application you will need to 'sign' the build with 
 2. [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation) - Provides the help/reference guide to the NHM within the IDE.
 
 ## Binaries - Compiled Executables of the Standalone IDE
-Are available [here](https://github.com/cse-bristol/national-household-model-standalone/releases/tag/Current).
+If you wish to simply install a run a version of the NHM Standalone IDE then please download the latest binary from [here](https://github.com/cse-bristol/national-household-model-standalone/releases/tag/Current).
+
+In order to run a simulation you will also need to import a housing stock, this is accomplished by creating a series of structued csv files wrapped in a zip file. Details on how the structure of these files are included in the [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation).
+
+There is also project written in R that can create these structure stock files from specific data-sets, details on this can be found [here](https://github.com/cse-bristol/national-household-model-stock-files-creator).
 
 # License
-[Open Government License] (http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) 
+[Open Government License] (http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
