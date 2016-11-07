@@ -7,7 +7,7 @@ More information on using the model can be found both [National Household Model 
 To build the Standalone project locally both the OSGI Bundles,  [National Household Model] (https://github.com/cse-bristol/national-household-model-core-components) and  [National Household Model Documentation] (https://github.com/cse-bristol/national-household-model-documentation) need to be compiled as jars and installed within a local Maven repository.
 
 ## OSGI Bundles
-OSGI is the way customisation's can be added to the Eclipse IDE, typically these should be compiled and hosted in a P2 repository, the repository location should then be defined in the repositories element of the IDE pom file.
+OSGI is the way customisations can be added to the Eclipse IDE, typically these should be compiled and hosted in a P2 repository, the repository location should then be defined in the repositories element of the IDE pom file.
 
 ### API - nhm-api-bundle
 Defines the Application Programming Interface for an NHM Bundle. This is a Gradle project and should be configured to push the generated p2 bundle into a p2 repository.
